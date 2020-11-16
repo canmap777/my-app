@@ -13,7 +13,11 @@ public class App
         System.out.println( "Pipeline!" );
         System.out.println( "Multi-branch Pipeline" );
         System.out.println( " ****************************************************************************************************" );
-        
+        System.out.println( " Change 1 --> 21:01" );
+
+        DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+        Calendar calobj = Calendar.getInstance();
+        System.out.println(df.format(calobj.getTime()));
         
         
     }
